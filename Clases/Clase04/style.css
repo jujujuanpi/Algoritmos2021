@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(238, 239, 241);
+    margin: 0px ;
+    padding: 0px ;
+}
+
+header {
+    background-color: rgb(167, 161, 161);
+    min-height: 10vh ;
+    text-align: center ;
+    color: seashell ;
+}
+
+header > h1 {
+    font-size: 5em ;
+    margin-top: 0px ;
+    text-transform: uppercase ;
+    margin-bottom: 0px ;
+}
+
+main {
+    padding: 0px ;
+}
+
+#Comidas {
+    background-color: rgb(238, 239, 251) ;
+    padding: 15px ;
+}
+
+#Comidas-IMG-1 {
+    margin: 0px;
+    text-align: center ;
+}
+
+#Comidas-IMG-1 > img {
+    width: 40vw ;
+    height: 50vh ;
+}
+
+footer {
+    background-color: rgb(153, 144, 144);
+    min-height: 5vh ;
+    text-align: center ;
+}
+
+footer > address {
+    font-size: 1em ;
+    color: seashell ;
+    text-transform: uppercase ;
+    padding-top: 6px ;
+}
