@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(238, 239, 241);
+    margin: 0px ;
+    padding: 0px ;
+}
+
+header {
+    background-color: rgb(167, 161, 161);
+    min-height: 10vh ;
+    text-align: center ;
+    color: seashell ;
+}
+
+header > h1 {
+    font-size: 5em ;
+    margin-top: 0px ;
+    text-transform: uppercase ;
+    margin-bottom: 0px ;
+}
+
+main {
+    padding: 15px ;
+}
+
+.content-fig {
+    width: 50vw;
+    height: 60vh;
+}
+
+#Comidas {
+    background-color: rgb(238, 239, 251) ;
+}
+
+#Comidas-IMG-1 {
+    margin: 0px;
+    text-align: center ;
+}
+
+#Comidas-IMG-1 > img {
+    width: 40vw ;
+    height: 50vh ;
+    transition: 1s;
+}
+
+#Comidas-IMG-1 > img:hover {
+    width: 50vw ;
+    height: 60vh ;
+    transition: 1s;
+}
+
+#Comidas-IMG-1 > figcaption {
+    font-size: 0.5em;
+}
+
+.Titles {
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.Titles:hover {
+    background-color: lightpink;
+    transition: 1s;
+}
+
+#España > ul > li {
+    font-size: 1rem;
+}
+
+#Fotos-Platos-Españoles > figure > img {
+    width: 40vw ;
+    height: 50vh ;
+}
+
+#Fotos-Platos-Españoles > figure > figcaption {
+    font-size: 0.5em;
+}
+
+#Colombia > h2 {
+    font-size: 2rem;
+}
+
+#Colombia > ul > li {
+    font-size: 1rem;
+}
+
+#Desayunos > h2 {
+    font-size: 2rem;
+}
+
+#Desayunos > ul > li {
+    font-size: 1rem;
+}
+
+#Waffles > img {
+    width: 120px ;
+    height: 150px ;
+}
+
+#Waffles > figcaption {
+    font-size: 0.5em;
+    padding-bottom: 15px ;
+}
+
+footer {
+    background-color: rgb(153, 144, 144);
+    min-height: 5vh ;
+    text-align: center ;
+}
+
+footer > address {
+    font-size: 1em ;
+    color: seashell ;
+    text-transform: uppercase ;
+    padding-top: 6px ;
+}
