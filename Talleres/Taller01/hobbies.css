@@ -1,0 +1,220 @@
+body {
+    background-image: url(./WhiteBG3.jpg);
+    margin: 0px ;
+    padding: 0px ;
+}
+
+header {
+    background-color: transparent;
+    text-align: center;
+    min-height: 10vh;
+    transition: 1s;
+}
+
+header:hover {
+    background-color: rgb(221, 221, 221);
+    transition: 1s;
+}
+
+header > h1 {
+    color: rgb(109, 109, 109);
+    font-size: 4.2em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: "Poppins";
+}
+
+main {
+    padding: 15px;
+}
+
+.Titles {
+    background-color: transparent;
+    transition: 1s;
+    font-size: 1.8rem;
+    font-family: "Noto Sans";
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(88, 88, 88);
+    margin-bottom: -10px;
+}
+
+.Titles:hover {
+    background-color: rgb(221, 221, 221);
+    transition: 1s;
+}
+
+.Text {
+    font-family: "Open Sans";
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#Art {
+    float:left;
+    margin-left: 60px;
+}
+
+#Foto-Art > figure > img {
+    width: 35vw ;
+    height: 45vh ;
+    transition: 1s;
+}
+
+#Foto-Art > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#Foto-Art > figure > figcaption {
+    font-size: 0.6em;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Food {
+    float:right;
+    margin-right: 60px;
+}
+
+#Foto-Food > figure > img {
+    width: 35vw ;
+    height: 45vh ;
+    transition: 1s;
+}
+
+#Foto-Food > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#Foto-Food > figure > figcaption {
+    font-size: 0.6em;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Music {
+    text-align:center;
+    clear: both;
+}
+
+#Album1 > figure > img {
+    width: 250px ;
+    height: 250px ;
+    transition: 1s;
+    float: left;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+#Album1 > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#Album2 > figure > img {
+    width: 250px ;
+    height: 250px ;
+    transition: 1s;
+    float: left;
+    padding: 15px;
+}
+
+#Album2 > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#Album3 > figure > img {
+    width: 250px ;
+    height: 250px ;
+    transition: 1s;
+    float: left;
+    padding: 15px;
+}
+
+#Album3 > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#Album4 > figure > img {
+    width: 250px ;
+    height: 250px ;
+    transition: 1s;
+    float: left;
+    padding: 15px;
+}
+
+#Album4 > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#A1 {
+    clear: both;
+}
+
+#Football {
+    float:left;
+    margin-left: 60px;
+    clear: auto;
+}
+
+#Foto-Football > figure > img {
+    width: 35vw ;
+    height: 45vh ;
+    transition: 1s;
+}
+
+#Foto-Football > figure > img:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+#Foto-Football > figure > figcaption {
+    font-size: 0.6em;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#VideoGames {
+    float:right;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.Videos {
+    width: 35vw;
+    height: 45vh;
+    transition: 1s;
+}
+
+#Video-VideoGames > video:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+footer {
+    background-color: rgb(221, 221, 221);
+    min-height: 5vh ;
+    text-align: center ;
+    clear: both;
+}
+
+footer > p {
+    font-size: 0.7rem;
+    font-family: "Poppins";
+    padding: 5px;
+}
+
+footer > address {
+    font-size: 0.7rem;
+    font-family: "Poppins";
+    padding-bottom: 5px;
+}
