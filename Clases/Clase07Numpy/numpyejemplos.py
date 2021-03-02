@@ -86,3 +86,30 @@ print ('#'*30)
 print (kidsMoms[1][indiceKids])
 print (np.mean(kidsMoms[1][indiceKids]))
 print (len(kidsMoms[1][indiceKids]))
+
+#------------ Ordenando Listas ------------#
+listaEdad = [12,42,15,29,21,27]
+
+# listaEdad.sort() -> MÁS FÁCIL
+print (listaEdad)
+
+listaEdadNp = np.array(listaEdad)
+listaEdadNpOrdenada = np.sort(listaEdadNp)
+print (listaEdadNpOrdenada)
+
+#------------ Máximo y Mínimo en una Lista ------------#
+
+print ("La persona de mayor edad tiene", max(listaEdad)) # Más fácil
+print ("La persona de mayor edad tiene", min(listaEdad)) # Más fácil
+
+
+print ("La persona de mayor edad tiene", np.max(listaEdadNp))
+print ("La persona de mayor edad tiene", np.min(listaEdadNp))
+
+#------------ Mayores a una edad ------------#
+
+mayorAQuince = listaEdadNp > 15
+print (listaEdadNp[mayorAQuince])
+
+mayorADoce = np.where(listaEdadNp>12) # Da la posicion donde se cumple
+print (mayorADoce)
